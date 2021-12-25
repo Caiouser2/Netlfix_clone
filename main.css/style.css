@@ -1,0 +1,161 @@
+:root{
+ --vermelho:#e50914;
+ --preto:#020202;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+    height:110%;
+    background-color: var(--preto);
+    color:white;
+}
+
+
+
+.logo{
+    color:var(--vermelho);
+    font-family: 'Arial Black' , times;
+    font-size:40px;
+}
+
+
+.container{
+    margin:0px 10px;
+    background-color: var(--preto);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+nav,a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav,a:hover{
+  color:#fff;
+}
+
+.ajuda1{
+    display:none;
+}
+
+.filmePrincipal{
+  font-size:16px;
+  background:linear-gradient(rgba(0,0,0,.37), rgba(0,0,0,.37)100%),  url('rednotice3.jpg');
+  height:700px;
+  width: 104%;
+  background-position:center ; 
+  background-size:cover;
+  background-repeat: no-repeat;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: flex-start;
+}
+
+.titulo{
+    color:rgb(255, 255, 255);
+    margin-top:15%;
+    margin-bottom:15px;
+    font-size:43px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.descricao{
+    max-width: 45%;
+    font-size: 22px;
+}
+
+.botao{
+    font-size:12px;
+    margin-right: 10px;
+    margin-top:40px;
+    background-color:rgba(0,0,0,.50);
+    border:none;
+    color:white;
+    padding:15px 30px;
+    cursor:pointer;
+    transition: 2s ease all;
+}
+
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+.botoes,.titulo,.descricao{
+    margin-left: 15px;
+    margin-top:15px;
+}
+
+.fas{
+    margin-right:5px;
+} 
+
+.subs-titulos > h2{
+    font-size:22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:10px 13px;
+}
+
+.item{
+    display: flex;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.box-filmes{
+    width:250px;
+    height:220px;
+    margin:0px 10px;
+    cursor: pointer;
+}
+
+.owl-dots{
+    display: none;
+}
+
+.rodape{
+    flex-wrap: wrap;
+    display:flex;
+    flex-direction: column;
+    width: 100%; 
+    align-items: center; 
+}
+
+.far, .fa-hand-peace{
+    color:rgb(248, 149, 68);
+    margin-left:4px;
+    margin-top:13px;
+    
+}
+
+.creditos{  
+    height: 30px;
+    flex-wrap: wrap;
+    display:flex;
+}
+
+.direitos-resevados{
+    text-align: center;
+    margin-top: 8px;
+}
+
+.avisos{
+    margin-left:25px;
+    text-align:center;
+    margin-top:13px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:17px;
+ 
+}
+
